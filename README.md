@@ -1,6 +1,4 @@
-# Abhishek Tondarkar - Temperature Converter
-
-![Abhishek Tondarkar](ss.png)
+# Mayur Sarak - Temperature Converter
 
 ## Introduction
 
