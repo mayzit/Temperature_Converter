@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fahrenheit_to_Kelvin.css">
+    <title>Tempvertor</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            
+                <ul>
+                    <li><a href="./front.html"><svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M512 128 128 447.936V896h255.936V640H640v256h255.936V447.936z"/></svg></svg></a></li>
+                        
+                </ul>
+                
+        </nav>
+    </div>
+
+
+    <div class="firstSection">
+        <div class="container">
+            <h1>fahrenheit To Kelvin</h1>
+            <div>
+                <label for="fahrenheitInput">fahrenheit:</label>
+                <input type="number" id="fahrenheitInput"  placeholder="Enter temperature in fahrenheit" oninput="convertTemperature('fahrenheitInput', 'fahrenheit-meter', 'fahrenheit-line')">
+            </div>
+            <div>
+                <label for="kelvinInput">Kelvin:</label>
+                <input type="number" id="kelvinInput"  placeholder="Enter temperature in Kelvin" oninput="convertTemperature('kelvinInput', 'kelvin-meter', 'kelvin-line')">
+            </div>
+        </div>
+    </div>
+
+    <div class="secondSection">
+        <div class="meter-container-f" id="meter-container-f">
+            <div class="temperature-meter-f" id="fahrenheit-meter">
+                <div class="temperature-line-f" id="fahrenheit-line"></div>
+            </div>
+            <p>°F</p>
+            
+        </div>
+
+        <div class="meter-container-k" id="meter-container-k">
+            <div class="temperature-meter-k" id="kelvin-meter">
+                <div class="temperature-line-k" id="kelvin-line"></div>
+            </div>
+            <p>°K</p>
+        </div>
+    </div>
+
+
+    <script src="Fahrenheit_to_Kelvin.js"></script>
+</body>
+</html>
